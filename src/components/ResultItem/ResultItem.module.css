@@ -1,0 +1,30 @@
+.item {
+	margin-bottom: 20px;
+	padding: 20px 7px;
+	width: 450px;
+	background-color: cadetblue;
+	border-radius: 10px;
+}
+
+.header {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.content {
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.link {
+	border-radius: 10px;
+	padding: 3px 10px;
+	color: darkslateblue;
+	background-color: white;
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
