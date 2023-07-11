@@ -4,7 +4,7 @@ import { fromPromise } from 'mobx-utils'
 
 class WikiStore {
 	articles = []
-	searchQuery = 'pen'
+	searchQuery = ''
 
 	constructor() {
 		makeAutoObservable(this)
