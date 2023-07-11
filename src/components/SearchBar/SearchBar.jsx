@@ -2,8 +2,9 @@ import { useState } from 'react'
 import WikiStore from '../../store/WikiStore'
 import styles from './SearchBar.module.css'
 import WikiLink from '../WikiLink/WikiLink'
+import { observer } from 'mobx-react-lite'
 
-const SearchBar = () => {
+const SearchBar = observer(() => {
 	const [query, setQuery] = useState('')
 	const { setSearchQuery, setArticlesAction } = WikiStore
 
@@ -33,6 +34,6 @@ const SearchBar = () => {
 			/>
 		</div>
 	)
-}
+})
 
 export default SearchBar
